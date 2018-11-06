@@ -141,6 +141,7 @@ header .container{
 
 header .blocco{
   padding: 30px 20px 30px 20px;
+  font-size: 1.5vw;
 }
 #header{
   background-image: url("../../images/header.jpg");
@@ -154,7 +155,7 @@ header .blocco{
   padding: 0.5em 0 0.9em 0;
 }
 #nav ul li{
-font-size: 25px;
+font-size: 1.5vw;
 color: black;
 font-weight: 500;
 
@@ -198,7 +199,7 @@ font-weight: 500;
 
 #banner p{
   font-family: 'Segoe UI Semi-Bold', sans-serif;
-  font-size: 23px;
+  font-size: 1.3vw;
 }
 
 
@@ -246,7 +247,7 @@ ul.icona_lista li:before{
 
 #main .blocco{
   font-family: 'Segoe UI Semi-Bold', sans-serif;
-  font-size: 23px;
+  font-size: 1.3vw;
   position: relative;
 }
 /*  */
@@ -307,7 +308,7 @@ iframe.video{
 
 #video p{
   font-family: 'Segoe UI Semi-Bold', sans-serif;
-  font-size: 23px;
+  font-size: 1.3vw;
 }
 
 #scopri{
