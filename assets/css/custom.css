@@ -194,7 +194,7 @@ font-weight: 500;
   position: relative;
 }
 #banner div.text-center:nth-child(1){
-  font-size: 26px;
+  font-size: 1.5vw;
 }
 
 #banner p{
