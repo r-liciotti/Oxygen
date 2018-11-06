@@ -1,0 +1,404 @@
+body{
+  overflow-x: hidden;
+  font-family: 'Segoe UI Semi-Bold', sans-serif;
+  font-weight: 400;
+}
+h2{
+  font-size: 6vw;
+}
+
+
+@font-face {
+  src: url("Oxygen/font/BRADHITC.TTF");
+  font-family:'anyma';
+  font-style: normal;
+}
+.separatore{
+  position: absolute;
+  left: -20px;
+  height: 150px;
+  width: 1px;
+  border: 2px solid #dad1cb;
+  float: left;
+}
+.separatore2{
+  height: 150px;
+  width: 1px;
+  border: 2px solid #dad1cb;
+  float: right;
+  position: absolute;
+    right: -20px;
+    top: 60px;
+}
+.separatore3{
+  top: -20px;
+  position: absolute;
+  left: 90px;
+  height: 1px;
+  width: 1202px;
+  border: 2px solid #dad1cb;
+  float: left;
+}
+div.separatore3::before{
+    content: " ";
+    height: 50px;
+    top: -1px;
+    position: absolute;
+    left: -2px;
+    height: 30px;
+    width: 1px;
+    border: 2px solid #dad1cb;
+}
+.separatore3::after{
+    content: " ";
+    height: 50px;
+    top: -1px;
+    position: absolute;
+    right: -2px;
+    height: 30px;
+    width: 1px;
+    border: 2px solid #dad1cb;
+}
+.separatore4{
+  position: absolute;
+  left: 90px;
+  bottom: -20px;
+  height: 1px;
+  width: 1200px;
+  border: 2px solid #dad1cb;
+  float: left;
+}
+.separatore4::before{
+  content: " ";
+  height: 50px;
+  top: -28px;
+  position: absolute;
+  left: -2px;
+  height: 30px;
+  width: 1px;
+  border: 2px solid #dad1cb;
+}
+.separatore4::after{
+  content: " ";
+  height: 50px;
+  top: -28px;
+  position: absolute;
+  right: -2px;
+  height: 30px;
+  width: 1px;
+  border: 2px solid #dad1cb;
+}
+.anyma__font{
+font: 14rem 'anyma', sans-serif;
+}
+span.anyma__font{
+  font: 2rem 'anyma', sans-serif;
+}
+h2.anyma__font{
+  margin-top: 190px;
+  font: 19rem 'anyma', sans-serif;
+  color: black;
+  text-shadow: 0px 0px 20px #8a7051;
+}
+
+.blocco{
+  background-color: #dad1cb;
+  padding: 30px 20px 25px 20px;
+}
+
+.bold{
+  font-weight: bold;
+}
+#aa {
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+#backHome{
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    z-index: 0;
+}
+
+
+header b{
+  font-weight: 600;
+}
+header > p {
+    font-size: 4.7vw;
+}
+header .container{
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+header .blocco{
+  padding: 30px 20px 30px 20px;
+}
+#header{
+  background-image: url("../../images/header.jpg");
+}
+#header .logo {
+  width: 600px;
+}
+
+/* Navbar */
+#nav {
+  padding: 0.5em 0 0.9em 0;
+}
+#nav ul li{
+font-size: 25px;
+color: black;
+font-weight: 500;
+
+}
+
+/* background-color: #333333 */
+#nav.navbar-collapse {
+  border-color: rgba(34, 34, 34, 0.1);
+  background-color: #ddc7ad;
+  position: fixed;
+  transition: all ease 0.8s;
+}
+
+#nav.navbar-collapse>ul:before, #nav.navbar-collapse>ul:after {
+  border-top: solid 1px rgb(192, 192, 192);
+  border-bottom: solid 1px rgb(192, 192, 192);
+  transition: all ease 0.8s;
+}
+
+#nav.navbar-collapse>ul:before, #nav.navbar-collapse>ul:before {
+  border-top: solid 1px rgb(192, 192, 192);
+  border-bottom: solid 1px rgb(192, 192, 192);
+  transition: all ease 0.8s;
+}
+
+/*  */
+
+
+.timestamp {
+  color: rgb(0, 0, 0);
+  font-size: 0.8em;
+}
+
+/* Banner */
+#banner{
+  position: relative;
+}
+#banner div.text-center:nth-child(1){
+  font-size: 26px;
+}
+
+#banner p{
+  font-family: 'Segoe UI Semi-Bold', sans-serif;
+  font-size: 23px;
+}
+
+
+
+/* Main */
+
+#main{
+  margin-bottom: 150px;
+}
+#main a img {
+  margin: 0 auto;
+  width: 90%;
+  height: 900px;
+}
+
+#main a.image {
+  margin: 0px 0 2.5em 0;
+}
+
+#main > header{
+  margin-bottom: 60px;
+
+}
+
+
+#main div.wrapper{
+  height: 980px;
+}
+
+.testo{
+  text-align: center;
+}
+ul.icona_lista{
+ font-size: 23px;
+  list-style: none;
+  padding: 0;
+  position: relative;
+}
+
+ul.icona_lista li:before{
+  content: url('../../images/icona_lista.png');
+  position: relative;
+    top: 8px;
+}
+
+#main .blocco{
+  font-family: 'Segoe UI Semi-Bold', sans-serif;
+  font-size: 23px;
+  position: relative;
+}
+/*  */
+
+
+/* Carosello */
+.esagonale {
+  width: calc(100vw / 6);
+  -webkit-clip-path: polygon(25% 0%, 75% 0%, 99% 50%, 75% 100%, 25% 100%, 1% 50%);
+  clip-path: polygon(25% 0%, 75% 0%, 99% 50%, 75% 100%, 25% 100%, 1% 50%);
+  /* border-left: 2px solid #fff;
+border-right: 2px solid #fff; */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.sotto {
+  position: relative;
+  left: -103px !important;
+  top: 121px !important;
+}
+
+.left {
+  left: -182px !important;
+}
+
+.reel {
+  margin: auto 230px;
+}
+
+.forward {
+  display: none !important;
+}
+
+.backward {
+  display: none !important;
+}
+
+/*  */
+/* Video */
+
+#video{
+  position: relative;
+}
+#video .wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1080px;
+}
+
+iframe.video{
+  margin-bottom: 80px;
+}
+.ytp-chrome-top-buttons{
+    white-space: nowrap;
+    display: none;
+}
+
+#video p{
+  font-family: 'Segoe UI Semi-Bold', sans-serif;
+  font-size: 23px;
+}
+
+#scopri{
+  border-radius: 59%;
+  width: 110px;
+  height: 110px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  }
+
+.text-center {
+  text-align: center;
+}
+
+#scopri > div{
+  font-size: 15px;
+}
+
+/*  */
+/* Footer - Contatti */
+#footer {
+  padding: 3em 0 0em 0 !important;
+}
+
+#footer {
+  background-color: #a5968c;
+}
+
+.paragrapher p {
+  margin: 0 !important;
+  text-align: left !important;
+}
+
+ul.icons li {
+  display: block !important;
+}
+
+.text-right {
+  text-align: right;
+}
+/*  */
+
+
+/* Esagono ANYMA */
+#main #anyma{
+  margin-bottom: 0px;
+}
+.esagono{
+  text-align: center;
+}
+.esagono img{
+  width: 70%;
+}
+
+
+/* Logo Anyma */
+.logo_anyma{
+  width: 70%;
+}
+/*  */
+
+
+/* Contattaci */
+#contattaci{
+  -webkit-box-shadow: 0px 26px 40px 7px rgba(0,0,0,.3);
+  box-shadow: 0px 26px 40px 7px rgba(0,0,0,.3);
+  margin: 20px 0 60px 0;
+  border-radius: 25px;
+}
+#contattaci h2{
+  font-weight: bold;
+color: black
+}
+#contattaci .col-4{
+  font-weight: 500;
+  color: black;
+}
+#contattaci > #content{
+  padding-left: 0px;
+}
+#contattaci > h4{
+  font-size: 1.4em;
+}
+#map{
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+
+}
+
+#contattaci > .container{
+  padding-left: 0px;
+  padding-top: 30px;
+}
+/*  */

@@ -1,0 +1,100 @@
+body { height: 100%; width:100%; margin: 0; padding: 0;}
+b{
+  font-weight: 900;
+}
+
+#aa {position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    z-index: -1;}
+.no-sidebar #header{
+  background-color: #dad1cb;
+}
+.no-sidebar .wrapper{
+  padding: 0;
+}
+.inner  .anyma__font{
+  font-size: 12vw!important;
+}
+
+.no-sidebar .blocco{
+  padding: 20px 20px 10px 20px;
+
+}
+
+hr{
+  border: 0;
+  border-top: solid 1px rgba(128, 128, 128, 0);
+  border-bottom: solid 1px rgba(128, 128, 128, 0);
+  margin-bottom: 0;
+}
+
+/* ANYMA */
+#anyma{
+  position: relative;
+}
+#anyma  .blocco{
+  width: 350px;
+  height: 310px;
+  font-size: 1.2vw;
+  position: absolute;
+  top: 101px;
+}
+
+#anyma .img{
+  width: 45vw;
+  margin: 0 auto;
+  }
+
+#anyma .img img{
+  max-width: 100%;
+}
+/*  */
+.blocco{
+  width: 500px;
+margin: 0 auto;
+}
+/* Esagoni */
+.esagono{
+  margin-top: 170px;
+  margin-bottom: 100px;
+}
+.esagono img{
+  width: 100%;
+}
+
+.esagono .blocco{
+  width: 100%;
+  margin: 0;
+}
+
+/*  */
+
+
+/* DOUBLE WAVE */
+
+.double_wave{
+margin: 10px 0;
+}
+
+.double_wave img{
+  margin-left: 7%;
+  max-width: 100%;
+}
+
+.separatore{
+  height: 56%;
+  width: 1px;
+  border: 2px solid #dad1cb;
+  float: left;
+}
+
+.double_wave .testo{
+  margin-left: 35px;
+  text-align: left;
+}
+
+
+/*  */
