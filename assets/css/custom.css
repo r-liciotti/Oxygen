@@ -35,7 +35,7 @@ h2{
   position: absolute;
   left: 90px;
   height: 1px;
-  width: 1202px;
+  width: 85%;
   border: 2px solid #dad1cb;
   float: left;
 }
@@ -64,7 +64,7 @@ div.separatore3::before{
   left: 90px;
   bottom: -20px;
   height: 1px;
-  width: 1200px;
+  width: 85%;
   border: 2px solid #dad1cb;
   float: left;
 }
